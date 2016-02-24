@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2014 The orion Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,12 +14,12 @@
 
 $(call inherit-product, device/xiaomi/ferrari/full_ferrari.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common orion stuff.
+$(call inherit-product, vendor/orion/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ferrari
-PRODUCT_NAME := cm_ferrari
+PRODUCT_NAME := orion_ferrari
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 4i
 PRODUCT_MANUFACTURER := Xiaomi
