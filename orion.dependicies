@@ -1,0 +1,12 @@
+[
+  {
+    "repository":  "fire855/android_kernel_xiaomi_ferrari",
+    "target_path": "kernel/xiaomi/ferrari",
+    "branch":      "cm-13.0"
+  },
+  {
+    "repository": "hashroot/vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch":      "cm-13.0"
+  }
+]
