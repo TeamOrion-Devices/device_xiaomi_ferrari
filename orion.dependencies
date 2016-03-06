@@ -12,7 +12,7 @@
     "target_path": "external/stlport"
   },
   {
-    "repository": ""hashroot/vendor_xiaomi",
+    "repository": ""hashroot/vendor_xiaomi_ferrari",
     "target_path": "vendor/xiaomi/ferrari"
   },
 ]
