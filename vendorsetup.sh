@@ -13,4 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-add_lunch_combo aosp_ferrari-userdebug
+add_lunch_combo orion_ferrari-userdebug
++add_lunch_combo orion_ferrari-user
++add_lunch_combo orion_ferrari-eng
