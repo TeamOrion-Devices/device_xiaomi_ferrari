@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/ferrari/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ferrari
-PRODUCT_NAME := full_ferrari
+PRODUCT_NAME := orion_ferrari
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 4i
 PRODUCT_MANUFACTURER := Xiaomi

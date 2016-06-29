@@ -26,7 +26,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="RiSHABH Dubey"
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="RiSHABH"
 
 # Build prop overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -34,3 +34,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="ferrari" \
     BUILD_FINGERPRINT="Xiaomi/ferrari/ferrari:6.0.1/MMB29M:userdebug/test-keys" \
     PRIVATE_BUILD_DESC="ferrari-userdebug 6.0.1 MMB29M test-keys"
+
+# BootAnimation Path
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+PRODUCT_COPY_FILES += \
+     vendor/orion/config/media/bootanimation.zip:system/media/bootanimation.zip
