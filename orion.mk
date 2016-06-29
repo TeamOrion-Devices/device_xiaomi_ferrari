@@ -39,4 +39,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 PRODUCT_COPY_FILES += \
-     vendor/orion/config/media/bootanimation.zip:system/media/bootanimation.zip
+     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
