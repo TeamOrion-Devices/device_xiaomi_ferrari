@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 add_lunch_combo orion_ferrari-userdebug
-+add_lunch_combo orion_ferrari-user
-+add_lunch_combo orion_ferrari-eng
+add_lunch_combo orion_ferrari-user
+add_lunch_combo orion_ferrari-eng
